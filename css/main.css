@@ -3,6 +3,11 @@ body {
   margin : 0;
   padding : 0;
   background-color: #129793;
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -19,8 +24,9 @@ header {
 
 footer {
   background-color: #129793;
-  height:200px;
+  height:150px;
   width:100%;
+  padding-top: 50px;
 }
 
 h1.logo {
@@ -80,4 +86,42 @@ ul.nav-list {
 
 .header-nav a:hover {
   color: black;
+}
+
+nav.footer-nav {
+  float: right;
+  width: 700px;
+  height: 50px;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+}
+
+.footer-nav a:hover {
+  color: black;
+}
+
+a.footer-text {
+  float: left;
+  display: block;
+  position: relative;
+  left: 40px;
+  font-size: 17px;
+  color: #505050;
+}
+
+.footer ul.nav-list {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  float: right;
 }
