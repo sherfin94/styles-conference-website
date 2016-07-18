@@ -1,0 +1,47 @@
+
+header {
+  height: 250px;
+}
+
+#body {
+  height: 1000px;
+}
+
+section.speaker {
+  width : 80%;
+  height: 300px;
+  padding-left: 10%;
+  padding-right: 10%;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+section.speaker h2 {
+  color: #9BD7D5;
+}
+
+section.speaker h3 {
+  color: #505050;
+}
+
+section.speaker p {
+  color: #505050;
+  font-size: 15px;
+}
+
+div.speaker-right img {
+  margin-left: 200px;
+  margin-top: 50px;
+  border-radius: 30px;
+}
+
+div.speaker-right h3 {
+  margin-left: 150px;
+  text-align: center;
+}
+
+div.speaker-right h4 {
+  margin-left: 150px;
+  text-align: center;
+}
