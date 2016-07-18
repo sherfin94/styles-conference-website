@@ -39,9 +39,8 @@ h1.logo {
 
 section.header-right {
   float: right;
-  border: solid gold 1px;
   position: relative;
-  top: 10px;
+  top: 50px;
   width: 800px;
   height: 200px;
 }
@@ -50,4 +49,35 @@ h3.tagline {
   font-family: monospace;
   font-size: 30px;
   color: #505050;
+  width: inherit;
+  float: right;
+}
+
+nav.header-nav {
+  float: right;
+  width: inherit;
+  height: 150px;
+}
+
+ul.nav-list {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 30px;
+  color: white;
+}
+
+.header-nav a:hover {
+  color: black;
 }
