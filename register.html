@@ -5,6 +5,7 @@
       Styles Conference
     </title>
     <link rel = "stylesheet" href = "css/main.css" />
+    <link rel = "stylesheet" href = "css/register.css" />
   </head>
   <body>
     <header>
@@ -18,38 +19,76 @@
 
         <nav class = "header-nav">
           <ul class = "nav-list">
-            <li><a href = "#">Home</a>  &nbsp&nbsp| </li>
-            <li><a href = "#">Speakers</a>&nbsp&nbsp|</li>
-            <li><a href = "#">Schedule</a>&nbsp&nbsp|</li>
-            <li><a href = "#">Venue</a>&nbsp&nbsp|</li>
-            <li><a href = "#">Register</a></li>
+            <li><a href = "index.html">Home</a>  &nbsp;&nbsp;| </li>
+            <li><a href = "speakers.html">Speakers</a>&nbsp;&nbsp;|</li>
+            <li><a href = "schedule.html">Schedule</a>&nbsp;&nbsp;|</li>
+            <li><a href = "venue.html">Venue</a>&nbsp;&nbsp;|</li>
+            <li><a href = "register.html">Register</a></li>
           </ul>
         </nav>
       </section>
 
-      <section class = "motto">
-        <h2 class = "motto-text">
-          Dedicated to the Craft of Building Websites
-        </h2>
-        <h3 class = "motto-sub-text">
-          Every year the brightest web designers and front-end developers descend on<br /> Chicago to discuss the latest technologies. Join us this August!
-        </h3>
-      </section>
 
     </header>
 
     <section id = "body">
+      <div class = "container">
+        <aside class = "reg-left">
+          <h2>
+            Purchase a Conference Pass
+          </h2>
+          <h3>
+            $99 PER PASS
+          </h3>
+          <p>
+            Purchase your Styles Conference pass using the form to the right.<br />
+            Multiple passes may be purchased within the same order, so feel free to bring a friend or two along.<br />
+            Once your order is finished we'll follow up and provide a receipt for your purchase. See you soon!
+          </p>
+          <h4>
+            Why Attend?
+          </h4>
+          <p>
+            <ul class = "square-list">
+            <li>Over twenty world-class speakers</li>
+            <li>One full day of workshops and two full days of presentations</li>
+            <li>Hosted at The Chicago Theatre, a historical landmark</li>
+            <li>August in Chicago is simply amazing</li>
+          </p>
+        </aside>
+
+        <aside class = "reg-right">
+          <form name = "reg-form" class = "reg-form">
+            <label for="name">Name</label><br />
+            <input type = "textbox" name = "name" placeholder = "Name"/> <br /><br />
+            <label for="email">Email</label><br />
+            <input type = "email" name = "email"  placeholder = "Name" placeholder = "Your E-mail Address"/><br /><br />
+            <label for="numPasses">Number of passes</label><br />
+            <select name = "numPasses">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select><br /><br />
+            <label for="comments">Comments</label><br />
+            <textarea name = "comments"  placeholder = "Your comments"></textarea><br /><br />
+            <input type = "submit" value = "Purchase" />
+          </form>
+        </aside>
+      </div>
+
     </section>
 
     <footer>
       <a href = "index.html" class = "footer-text"> &copy Styles Conference</a>
       <nav class = "footer-nav">
         <ul class = "nav-list">
-          <li><a href = "#">Home</a>  &nbsp&nbsp| </li>
-          <li><a href = "#">Speakers</a>&nbsp&nbsp|</li>
-          <li><a href = "#">Schedule</a>&nbsp&nbsp|</li>
-          <li><a href = "#">Venue</a>&nbsp&nbsp|</li>
-          <li><a href = "#">Register</a></li>
+          <li><a href = "index.html">Home</a>  &nbsp;&nbsp;| </li>
+          <li><a href = "speakers.html">Speakers</a>&nbsp;&nbsp;|</li>
+          <li><a href = "schedule.html">Schedule</a>&nbsp;&nbsp;|</li>
+          <li><a href = "venue.html">Venue</a>&nbsp;&nbsp;|</li>
+          <li><a href = "register.html">Register</a></li>
         </ul>
       </nav>
     </footer>

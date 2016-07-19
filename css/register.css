@@ -1,0 +1,79 @@
+
+header {
+  height: 250px;
+}
+
+#body {
+  height: 800px;
+  padding-top: 50px;
+}
+
+aside.reg-left {
+  width:60%;
+  height:auto;
+  float: left;
+}
+
+aside.reg-right {
+  width:20%;
+  height:auto;
+  float:left;
+}
+
+aside.reg-left h2 {
+  font-size: 25px;
+  color: #9BD7D5;
+}
+
+aside.reg-left h3 {
+  font-size: 20px;
+  color: #505050;
+}
+
+aside.reg-left p {
+  font-size: 18px;
+  color: #505050;
+  line-height: 30px;
+}
+
+aside.reg-left h4 {
+  font-size: 20px;
+  color: #505050;
+}
+
+ul.square-list {
+  list-style-type: square;
+  color: #505050;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+div.container {
+  width: 90%;
+  margin:0 auto;
+}
+
+aside.reg-right {
+  padding-left: 300px;
+  color: #505050;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+form.reg-form input, form.reg-form textarea,form.reg-form select{
+  border: solid #9BD7D5 2px;
+  border-radius: 10px;
+  width: 250px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+form.reg-form input {
+  height: 35px;
+  padding-left: 5px;
+}
+
+form.reg-form textarea {
+  height: 150px;
+}
