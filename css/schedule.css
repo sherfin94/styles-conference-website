@@ -13,12 +13,8 @@ section.body-header {
   background-color: gold;
   text-align: center;
   padding-top: 50px;
-}
-
-section.body-header h1 {
-  font-size: 18px;
-  color: #006400;
-  font-family: Arial;
+  color: #505050;
+  font-size: 15px;
 }
 
 div.schedule-table-div {

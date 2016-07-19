@@ -4,7 +4,7 @@ header {
 }
 
 #body {
-  height: 1000px;
+  height: 1500px;
 }
 
 section.speaker {
@@ -14,11 +14,13 @@ section.speaker {
   padding-right: 10%;
   float: left;
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 300px;
 }
 
 section.speaker h2 {
   color: #9BD7D5;
+  font-size: 25px;
+  letter-spacing: 2px;
 }
 
 section.speaker h3 {
@@ -27,12 +29,13 @@ section.speaker h3 {
 
 section.speaker p {
   color: #505050;
-  font-size: 15px;
+  font-size: 17px;
+  line-height: 30px;
 }
 
 div.speaker-right img {
   margin-left: 200px;
-  margin-top: 50px;
+  margin-top: 100px;
   border-radius: 30px;
 }
 
@@ -44,4 +47,14 @@ div.speaker-right h3 {
 div.speaker-right h4 {
   margin-left: 150px;
   text-align: center;
+}
+
+section.body-header {
+  width: 100%;
+  height: 100px;
+  background-color: #AAF200;
+  text-align: center;
+  padding-top: 50px;
+  color: #505050;
+  font-size: 15px;
 }
