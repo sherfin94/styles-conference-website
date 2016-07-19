@@ -38,3 +38,15 @@ aside.map-embedded {
   height: inherit;
   border:solid gold 0px;
 }
+
+section.body-header {
+  width: 100%;
+  height: 80px;
+  background-color: #31C3E7;
+  text-align: center;
+  padding-top: 70px;
+  color: #505050;
+  font-size: 17.5px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
