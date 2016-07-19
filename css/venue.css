@@ -1,0 +1,40 @@
+
+header {
+  height: 250px;
+}
+
+#body {
+  height: 1000px;
+  padding-top: 50px;
+}
+
+section.map-section {
+  width: 80%;
+  height: 400px;
+  margin:0 auto;
+  margin-bottom: 60px;
+}
+
+aside.map-details {
+  float: left;
+  height: inherit;
+  width:30%;
+  border:solid gold 0px;
+}
+
+aside.map-details h2 {
+  color: #505050;
+  font-size: 24px;
+}
+
+aside.map-details p {
+  color: #505050;
+  font-size: 17px;
+}
+
+aside.map-embedded {
+  float: right;
+  width: 70%;
+  height: inherit;
+  border:solid gold 0px;
+}
