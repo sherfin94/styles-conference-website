@@ -4,7 +4,10 @@ header {
 }
 
 #body {
-  height: 1500px;
+}
+
+#body::after {
+  clear: both;
 }
 
 section.speaker {
@@ -12,9 +15,12 @@ section.speaker {
   height: 300px;
   padding-left: 10%;
   padding-right: 10%;
-  float: left;
   margin-top: 30px;
   margin-bottom: 300px;
+}
+
+section.speaker::after {
+  clear: both;
 }
 
 section.speaker h2 {
@@ -30,7 +36,7 @@ section.speaker h3 {
 section.speaker p {
   color: #505050;
   font-size: 17px;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 div.speaker-right img {
@@ -50,12 +56,13 @@ div.speaker-right h4 {
 }
 
 section.body-header {
+
   width: 100%;
-  height: 100px;
   background-color: #AAF200;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #505050;
   font-size: 15px;
-  
+  display: inline-block;
 }

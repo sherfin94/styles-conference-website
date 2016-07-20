@@ -1,9 +1,11 @@
 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 body {
   margin : 0;
   padding : 0;
   background-color: #129793;
-  font-family: monospace;
+  font-family: 'Open Sans';
 }
 
 a {
@@ -18,11 +20,11 @@ header {
 
 #body {
   width: 100%;
-  height: 500px;
   background-color: white;
 }
 
 footer {
+  clear: both;
   background-color: #129793;
   height:150px;
   width:100%;
@@ -33,7 +35,7 @@ h1.logo {
   width: 362px;
   height:200px;
   border-top: solid white 6px;
-  font-family: monospace;
+  font-family: 'Open Sans';
   font-size: 60px;
   color: white;
   left:100px;
@@ -52,7 +54,7 @@ section.header-right {
 }
 
 h3.tagline {
-  font-family: monospace;
+  font-family: 'Open Sans';
   font-size: 30px;
   color: #505050;
   width: inherit;
@@ -79,7 +81,7 @@ ul.nav-list {
 
 .header-nav a {
   text-decoration: none;
-  font-family: monospace;
+  font-family: 'Open Sans';
   font-size: 30px;
   color: white;
 }
@@ -124,7 +126,7 @@ nav.footer-nav {
 
 .footer-nav a {
   text-decoration: none;
-  font-family: monospace;
+  font-family: 'Open Sans';
   font-size: 20px;
   color: white;
 }
@@ -177,4 +179,17 @@ div.bg-shade-bar-footer {
   height:50px;
   background-color: #1bc1bc;
   padding-top: 20px;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
 }
